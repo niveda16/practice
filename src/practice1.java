@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
 
+//bbbbbbbbbb
+//have no clue whats this..
 //duplicate chars and first non repeated char
 public class practice1 {
 
@@ -41,12 +43,12 @@ public class practice1 {
 		cha.add(ch);
 		}
 		}
-		
-			
-			
+
+
+
 		}
 		System.out.println(cha.get(0));
-		
+
 	String s1="niveda";
 	String s2="iyer";
 	s1 = s1 + s2;
@@ -56,16 +58,14 @@ public class practice1 {
     s1 = s1.substring(s2.length());
     System.out.println("s1 : "+s1);
     //Swapping ends
-     
+
     System.out.println("After Swapping :");
-     
+
     System.out.println("s1 : "+s1);
-     
+
     System.out.println("s2 : "+s2);
 
 	}
 
-		
+
 	}
-
-
