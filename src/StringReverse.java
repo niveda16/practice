@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class practice2 {
+public class StringReverse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
