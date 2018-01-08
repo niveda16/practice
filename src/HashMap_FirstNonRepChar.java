@@ -1,7 +1,6 @@
 import java.util.HashMap;
 
-/**
- * 
+/*This program finds the first non repeated character using HashMap
  */
 
 /**
@@ -9,7 +8,7 @@ import java.util.HashMap;
  *
  */
 //first non repeated char
-public class practice4 {
+public class HashMap_FirstNonRepChar {
 
 	/**
 	 * @param args
@@ -22,16 +21,16 @@ public class practice4 {
 		{
 			char c=word.charAt(i);
 			if(count.containsKey(c))
-				count.put(c, count.get(c)+1);
+				count.put(c, count.get(c)+1);	//storing the char and corresponding count
 				else
 					count.put(c, 1);
 		}
 		for(int j=0;j<word.length();j++)
-		{
+		{						
 			char c=word.charAt(j);
 			if(count.get(c)==1)
 			{
-				System.out.println(c);
+				System.out.println("First non repeated character - "+c);
 			break;
 			}	
 		}
