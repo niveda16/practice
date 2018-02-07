@@ -7,7 +7,7 @@ import java.util.Hashtable;
 import java.util.List;
 
 /*This program finds duplicate chars and the first non repeated character
-by iteration
+by iterations
 */
 public class DuplicateChar {
 
