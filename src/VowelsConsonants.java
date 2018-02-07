@@ -7,7 +7,7 @@ import java.util.HashMap;
  */
 
 /**
- * @author is_2315
+ * @author niveda
  *
  */
 public class VowelsConsonants {
